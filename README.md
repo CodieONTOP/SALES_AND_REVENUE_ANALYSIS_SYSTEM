@@ -7,3 +7,10 @@ A high-performance, visually stunning business analytics dashboard built using *
 - **Glassmorphism UI & Animations:** Custom CSS glass cards, smooth entrance keyframes, and fluid Plotly chart transitions.
 - **High-Visibility KPIs:** Real-time metrics tracking Total Revenue, Units Sold, Average Order Value, and Total Volume.
 - **Out-of-the-Box Execution:** Ships with a synthetic data generator script so reviewers can run and test the app immediately.
+   
+## 📊 Dataset & Ingestion Strategy
+This application is designed with robust data ingestion flexibility, allowing it to adapt to various transactional schemas without missing a beat:
+
+- **Out-of-the-Box Execution:** Ships with a built-in synthetic dataset generator (`generate_data.py`) that instantly provisions mock retail records (`sales_data.csv`) so reviewers can test the app immediately without configuration errors.
+- **Custom Dataset Support:** Easily scalable to heavy, real-world data sources (such as automotive auction analytics). The app dynamically detects columns, parses complex date strings, and maps out key financial metrics.
+- **Graceful Fallbacks:** If no custom file is uploaded via the sidebar ingestion panel, the app automatically defaults to local sample data while maintaining a clean, responsive interface.
