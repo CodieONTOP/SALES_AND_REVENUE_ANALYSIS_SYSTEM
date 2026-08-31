@@ -1,4 +1,4 @@
-🚀 Sales & Revenue Intelligence Platform
+## 🚀 Sales & Revenue Intelligence Platform
 
 A high-performance, visually stunning business analytics dashboard built using **Streamlit** and **Plotly**. Designed with a custom "Universe/Galaxy" glassmorphism theme and interactive mouse-tracking gradients, this tool transforms raw transactional datasets into dynamic, enterprise-grade revenue insights.
 
